@@ -6,67 +6,67 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Você acredita que as ações individuais podem realmente fazer a diferença para o meio ambiente?",
+        enunciado: "Os recursos naturais do seu planeta estão sob pressão. A extração e o consumo desenfreados estão esgotando minerais, florestas e a capacidade de renovação da natureza.",
         alternativas: [
             {
-                texto: "Sim  !",
-                afirmacao: "O futuro do nosso planeta começa a ser moldado positivamente no dia 5 de junho de 2026.."
+                texto: "Intensificar a mineração e o desmatamento, buscando novas reservas em regiões remotas e menos exploradas, para manter o ritmo de crescimento econômico atual.",
+                afirmacao: "Você decidiu que a energia de fusão nuclear é o futuro. "
             },
             {
-                texto: "Não  !",
-                afirmacao: "afirmação Quis saber como usar IA no seu dia a dia."
+                texto: "Implementar um programa rigoroso de reciclagem e reuso, transformando resíduos em novos produtos e reduzindo a necessidade de extração de matéria-prima virgem.",
+                afirmacao: "Você apostou na energia solar e eólica. "
             }
         ]
     },
     {
-        enunciado: "Com a descoberta desta tecnologia, chamada Inteligência Artificial, uma professora de tecnologia da escola decidiu fazer uma sequência de aulas sobre esta tecnologia. No fim de uma aula ela pede que você escreva um trabalho sobre o uso de IA em sala de aula. Qual atitude você toma?",
+        enunciado: "Seu planeta está crescendo rapidamente, e a demanda por energia dispara. Cientistas descobriram novas fontes de energia, mas cada uma tem seus prós e contras.",
         alternativas: [
             {
-                texto: "Utiliza uma ferramenta de busca na internet que utiliza IA para que ela ajude a encontrar informações relevantes para o trabalho e explique numa linguagem que facilite o entendimento.",
-                afirmacao: "No início ficou com medo do que essa tecnologia pode fazer."
+                texto: " Investir massivamente em usinas de fusão nuclear, que oferecem energia limpa e abundante, mas com um alto custo inicial e risco de acidentes em caso de falha de segurança.",
+                afirmacao: "Você decidiu intensificar a mineração e o desmatamento."
             },
             {
-                texto: "Escreve o trabalho com base nas conversas que teve com colegas, algumas pesquisas na internet e conhecimentos próprios sobre o tema.",
-                afirmacao: "Quis saber como usar IA no seu dia a dia."
+                texto: "Desenvolver uma rede global de painéis solares e turbinas eólicas, aproveitando a energia renovável do sol e do vento, mas que exige grandes áreas de terra e é intermitente.",
+                afirmacao: "Você implementou um programa rigoroso de reciclagem e reuso."
             }
         ]
     },
     {
-        enunciado: "Após a elaboração do trabalho escrito, a professora realizou um debate entre a turma para entender como foi realizada a pesquisa e escrita. Nessa conversa também foi levantado um ponto muito importante: como a IA impacta o trabalho do futuro. Nesse debate, como você se posiciona?",
+        enunciado: "A água potável está se tornando um luxo em muitas regiões do seu planeta. Poluição, desperdício e secas prolongadas ameaçam a vida e a agricultura.",
         alternativas: [
             {
-                texto: "Defende a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas.",
-                afirmacao: "No início ficou com medo do que essa tecnologia pode fazer."
+                texto: "Construir grandes usinas de dessalinização em massa, transformando água do mar em potável, mas que demandam muita energia e podem gerar resíduos salinos.",
+                afirmacao: "Você construiu grandes usinas de dessalinização."
             },
             {
-                texto: "Me preocupo com as pessoas que perderão seus empregos para máquinas e defendem a importância de proteger os trabalhadores.",
-                afirmacao: "Quis saber como usar IA no seu dia a dia."
+                texto: "Investir em tecnologias de tratamento de efluentes e reuso da água em larga escala, transformando esgoto em água limpa para diversas finalidades.",
+                afirmacao: "Você investiu em tratamento de efluentes e reuso da água."
             }
         ]
     },
     {
-        enunciado: "Ao final da discussão, você precisou criar uma imagem no computador que representasse o que pensa sobre IA. E agora?",
+        enunciado: "A biodiversidade do seu planeta está em declínio. Espécies estão desaparecendo devido à perda de habitat, poluição e caça ilegal.",
         alternativas: [
             {
-                texto: "Criar uma imagem utilizando uma plataforma de design como o Paint.",
-                afirmacao: "No início ficou com medo do que essa tecnologia pode fazer."
+                texto: "Criar grandes parques e reservas isoladas onde a vida selvagem possa prosperar sem interferência humana, mas que podem fragmentar ainda mais os ecossistemas.",
+                afirmacao: "Você criou grandes parques e reservas isoladas."
             },
             {
-                texto: "Criar uma imagem utilizando um gerador de imagem de IA.",
-                afirmacao: "Quis saber como usar IA no seu dia a dia."
+                texto: "Desenvolver programas de reprodução em cativeiro e reintrodução de espécies ameaçadas, utilizando tecnologia genética para aumentar suas chances de sobrevivência.",
+                afirmacao: "Você investiu em programas de reprodução em cativeiro e reintrodução."
             }
         ]
     },
     {
-        enunciado: "Você tem um trabalho em grupo de biologia para entregar na semana seguinte, o andamento do trabalho está um pouco atrasado e uma pessoa do seu grupo decidiu fazer com ajuda da IA. O problema é que o trabalho está totalmente igual ao do chat. O que você faz? ",
+        enunciado: "Seu planeta atingiu um ponto de inflexão. O consumo desenfreado e a busca por lucro estão gerando desigualdade e esgotando os recursos.",
         alternativas: [
             {
-                texto: "Escrever comandos para o chat é uma forma de contribuir com o trabalho, por isso não é um problema utilizar o texto inteiro.",
-                afirmacao: "No início ficou com medo do que essa tecnologia pode fazer."
+                texto: "Uma sociedade que prioriza o crescimento econômico a todo custo, acreditando que a riqueza gerada resolverá os problemas ambientais no futuro.",
+                afirmacao: "Você priorizou o crescimento econômico a todo custo."
             },
             {
-                texto: "O chat pode ser uma tecnologia muito avançada, mas é preciso manter a atenção pois toda máquina erra, por isso revisar o trabalho e contribuir com as perspectivas pessoais é essencial.",
-                afirmacao: "Quis saber como usar IA no seu dia a dia."
+                texto: "Uma sociedade que adota o conceito de economia circular, onde produtos são projetados para serem reutilizados, reparados e reciclados, minimizando o desperdício.",
+                afirmacao: "Você adotou a economia circular. A mentalidade de 'lixo zero' se tornou a norma."
             }
         ]
     },
@@ -104,7 +104,7 @@ function respostaSelecionada(opcaoSelecionada) {
 }
 
 function mostraResultado() {
-    caixaPerguntas.textContent = "Em 2049...";
+    caixaPerguntas.textContent = "ESTADO DO PLANETA...";
     textoResultado.textContent = historiaFinal;
     caixaAlternativas.textContent = "";
 }
